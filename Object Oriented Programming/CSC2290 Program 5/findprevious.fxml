@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="647.0" prefWidth="657.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Program5.FindPreviousController">
+    <top>
+        <TitledPane animated="false" collapsible="false" prefHeight="123.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+            <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                    <children>
+                        <Label alignment="CENTER" layoutX="-2.0" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="99.0" prefWidth="566.0" text="Enter The Number Of The Story:">
+                            <font>
+                                <Font name="Showcard Gothic" size="30.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </AnchorPane>
+            </content>
+        </TitledPane>
+    </top>
+    <bottom>
+        <Button mnemonicParsing="false" onMouseClicked="#onMouseClick2" prefHeight="63.0" prefWidth="147.0" text="Enter" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+    </bottom>
+    <center>
+        <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+            <children>
+                <Label fx:id="result" alignment="CENTER" layoutX="3.0" prefHeight="380.0" prefWidth="649.0" text=" " />
+                <TextField fx:id="text" layoutX="256.0" layoutY="385.0" prefHeight="62.0" prefWidth="146.0" />
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>
