@@ -1,5 +1,5 @@
 # Class-Projects
-A repository of all of my projects
+A repository of all of my class projects
 
 - [Object Oriented Programming](https://github.com/Colvig/Class-Projects/tree/main/Object%20Oriented%20Programming)
   - [Are You Smarter Than a Third Grade](https://github.com/Colvig/Class-Projects/tree/main/Object%20Oriented%20Programming/CSC2290%20Program%201)
